@@ -1,31 +1,35 @@
-#title{
+#title {
   background-color: #FF4C68;
 }
-body{
+
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
   color: white;
 }
-.container-fluid{
-  padding: 3% 15%;
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
-.navbar{
+.navbar {
   padding: 0 0 4.5rem;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-weight: bold;
   font-size: 2.5rem;
   font-family: 'Ubuntu', sans-serif;
 }
-.nav-item{
+
+.nav-item {
   padding: 0px 18px;
   font-size: 1.2rem;
   font-family: 'Montserrat';
@@ -33,83 +37,162 @@ h1{
 }
 
 /* Download buttons */
-.download-button{
-    margin: 5% 3% 0%;
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-.title-image{
+.title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin-top: 30px;
-  margin-left: 30px;
+  position: absolute;
+  right: 30%;
+  /* z-index: 2; */
 }
-
 
 /* Features */
-#features{
-  padding: 7% 13%;
+#features {
+  padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
+  /* z-index: 1; */
+  /* top: 30px; */
 }
+
 /* .feature-container{
   padding: 0;
 } */
-.feature-symbol{
+.feature-symbol {
   font-size: 3.5rem;
   padding-bottom: 20px;
   color: #EF8172;
 }
-.feature-symbol:hover{
+
+.feature-symbol:hover {
   color: #FF4C68;
 }
-.col-lg-4{
+
+.col-lg-4 {
   text-align: center;
   padding: 5%;
   /* margin: 0 25px; */
 }
-.feature-heading{
+
+.feature-heading {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   /* white-space: nowrap; */
   font-size: 1.5rem;
 }
-.feature-para{
+
+.feature-para {
   color: #8F8F8F;
 }
 
 /* Testimonials */
-
-#testimonials{
+#testimonials {
   /* padding: 7% 13%; */
   text-align: center;
   background-color: #EF8172;
   color: #fff;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 3rem;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
 /* Press */
-
-#press{
+#press {
   background-color: #EF8172;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-table {
+  padding: 3% 2%;
+}
+
+/* Action */
+#cta {
+  background-color: #FF4C68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+#exit {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-btn {
+  margin: 5% 2%;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.cunt2 {
+  padding: 1%;
+  color: black;
+  font-size: 1rem;
+}
+
+.cunt3 {
+  padding-top: 2%;
+  color: grey;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    /* z-index: 2; */
+  }
+}
+
+
+
+
+/*
+Code Refactoring
+1. Readability
+2. Modularity
+3. Efficiency
+4. Length
+
+
+ */
